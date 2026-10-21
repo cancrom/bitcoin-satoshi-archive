@@ -33,6 +33,7 @@ Updated **21 October 2026** against the 8 August 2026 final report, the 7 August
 | Maintenance comments and incomplete persistence | `index.html#satoshi-crises` | `evidence/COMMIT-ANCHORS.md` | Covered, bounded interpretation |
 | 2010 overflow and 2011 withdrawal | `index.html#satoshi-crises` | Public correspondence links | Covered, no causal claim |
 | Selected Hal, Malmi and Hearn correspondence | `index.html#correspondances` | Original published sources | Covered, selective not complete corpus |
+| IRC log preservation debate, 2010 | `index.html#irc-debat-2010` | `evidence/IRC-SOURCES.md` and primary Bitcointalk discussion | Public forum conversation about log preservation; not an IRC transcript |
 | S9 IRC source inventory and recovery protocol | `index.html#pistes-inexplorees` | `evidence/IRC-SOURCES.md` | Partial: no verified message-level output |
 | S2 original ZIP and exact original body/thread normalization | `proofs.html#ledger` | `evidence/AUDIT-2026-10-21.md` | Blocked by missing original |
 | Seven reconstructed UI images incl. review editor | `index.html#comparaisons-visuelles`, `#chronique-technique` | Six embedded PNGs + one HTML explanatory layout | Partial: exact seventh source PNG not uploaded |
