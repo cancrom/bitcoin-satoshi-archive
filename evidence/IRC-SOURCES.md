@@ -26,3 +26,16 @@ Planned outputs included: `REPORT.md`, `summary.json`, `daily-coverage.csv`, `co
 Do not publish raw personal data or invent lines when a channel or day is missing.
 
 Reference public archive: https://diyhpl.us/~bryan/irc/bitcoin/bitcoin-logs.2010-2018.tar.bz2
+
+
+## First-hand evidence for the early #bitcoin-dev log archive debate
+
+A September 2010 Bitcointalk thread, [Freenode / #Bitcoin-Dev Chat Logs](https://bitcointalk.org/index.php?topic=986.0), documents the genesis and limitations of this community preservation effort.
+
+- **5 September 2010:** mizerydearia reports collecting messages going back approximately to mid-July, explicitly noting gaps after IRC disconnections.
+- **5–7 September:** cdecker suggests community consultation about publishing older logs; some participants oppose universal public logging and discuss redacting non-consenting participants.
+- **21 September:** discussion includes join-channel recording notices and restricting search-engine indexing.
+
+This thread is **a publicly archived forum discussion *about* IRC logging**, not a recovered IRC transcript and not Satoshi's own conversation. It is useful evidence for *why gaps and selective coverage exist*, not for identifying an IRC participant.
+
+See the bilingual article at [IRC archive debate](../index.html#irc-debat-2010). Raw IRC source lines remain unverified and are not republished.
