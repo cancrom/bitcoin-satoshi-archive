@@ -16,6 +16,8 @@ The feature presents editorial findings and their limits. The evidence lab offer
 
 - [Manifeste des archives S1–S9 / Historic archive SHA-256 manifest](evidence/ARCHIVE-MANIFEST.csv)
 - [Vérificateur SHA-256 / Safe archive integrity checker](reproduce/verify_archives.py)
+- [Récupérateur S1/S9 avec contrôle d'intégrité / Opt-in public S1/S9 fetcher](reproduce/download_public_archives.py)
+- [Sources historiques S1/S9 / Historic S1/S9 URLs](evidence/PUBLIC-ARCHIVE-SOURCES.csv)
 - [Comparaison des reconstructions externes / Independent rebuild comparisons](evidence/EXTERNAL-REBUILDS.md)
 
 - [Contrôles réalisés et limites actuelles / Executed checks and current limits](evidence/STATUS-2026-10-21.md)
@@ -53,3 +55,14 @@ The illustrations are **editorial reconstructions**, not authenticated 2009 scre
 ### Contrôles automatiques / Automated checks
 
 [GitHub Actions — documentaire et tests](https://github.com/cancrom/bitcoin-satoshi-archive/actions/workflows/evidence-check.yml) — scripts de vérification HTML et tests synthétiques, sans dépendance aux archives historiques manquantes. **La publication du workflow ne garantit pas encore la réussite d'une exécution.**
+
+
+### Récupération volontaire des archives / Opt-in source recovery
+
+```bash
+python reproduce/download_public_archives.py --id S1 --directory ./archives
+python reproduce/download_public_archives.py --id S9 --directory ./archives
+python reproduce/verify_archives.py --directory ./archives --inspect-members
+```
+
+Le récupérateur ne décompresse pas et refuse les empreintes incorrectes. Il ne fonctionne que si les sources publiques sont accessibles depuis votre appareil. / The fetcher never extracts files and refuses mismatched digests. Public source availability depends on your network.
