@@ -15,3 +15,11 @@ H13,Public client graphics,RECONSTRUCTION,wxWidgets UI files,Not period screensh
 H14,Early email user agents,REPORTED_ARCHIVED_COPY,Five February 2009 P2P copies,Does not identify computer or person,Inspect original header bytes
 H15,CAlert centralization,REPORTED_PHASE9,SVN r142 and CAlert functions,Not arbitrary code execution,Inspect signature and control flow
 H16,Satoshi departure cause,UNPROVEN,Public Dec 2010 and Apr 2011 correspondence,No demonstrated causal link to overflow incident,Avoid causal claims
+H17,Original early Windows executable hash and size,REPORTED_PHASE3,REPORT_PHASE3.md and REPORT_PHASE4.md,6440960 bytes SHA256 fbcac071d92e26d82ec917214e334bd43850c0691f113bab1d4741c9bdd30d2d,Obtain exact original and run offline PE inspection
+H18,PE timestamp and packaging fingerprint,REPORTED_PHASE3,REPORT_PHASE3.md PE header audit,COFF 2009-01-10 23:16 UTC is an untrusted header field,Recompute header metadata on source bytes
+H19,RAR TGZ archive member agreement,REPORTED_PHASE3,REPORT_PHASE3.md 48 member comparison,Matching size CRC32 is not cryptographic file integrity,Export both member manifests and compare
+H20,Uniform eight hour archive timestamp difference,REPORTED_PHASE4,REPORT_PHASE4.md and timestamp-cross-container.csv,Archive packaging observation does not establish creator location,Compare naive member timestamps and record offset
+H21,Initial P2P header and protocol fields,REPORTED_PHASE4,REPORT_PHASE4.md protocol analysis,Version 101 and 20 byte header are historical not current network parameters,Validate exact serializer header and parsing
+H22,Initial mining change and network time limitations,REPORTED_PHASE4,REPORT_PHASE4.md code paths,Code-attested paths not historical execution proof,Compare early source with later r15 r109 and r141
+H23,Original Marketplace reachability and IP payment path,REPORTED_PHASE4,REPORT_PHASE4.md market UI and message flow,Prototype dormant and IP path reported but not runtime tested,Trace reachable UI and peer dispatch in same snapshot
+H24,Independent same-hash comparison to t4t5,EXTERNAL_CORROBORATION,Our Phase3 SHA and public t4t5 bitcoin-0.1-rebuilt,This publication has not rerun t4t5 build,Rebuild independently and retain UTC test output
