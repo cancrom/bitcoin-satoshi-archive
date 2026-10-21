@@ -1,0 +1,41 @@
+name: Documentary evidence checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-publication:
+    name: Validate published pages and synthetic tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run Message-ID comparator unit tests
+        run: python -m unittest discover -s reproduce -p 'test_*.py' -v
+      - name: Validate bilingual pages and local references
+        run: python reproduce/verify_publication.py
+      - name: Execute synthetic comparator fixtures
+        run: |
+          python reproduce/p2p_ids.py \
+            --html-index reproduce/example_html.csv \
+            --mbox-index reproduce/example_mbox.csv \
+            --output /tmp/comparison.json
+          python - <<'PY'
+          import json
+          d = json.load(open('/tmp/comparison.json'))
+          assert d['html_page_rows'] == 5, d
+          assert d['matching_html_page_rows'] == 3, d
+          assert d['unmatched_html_page_rows_with_id'] == 1, d
+          assert d['unmatched_mbox_unique_ids'] == 1, d
+          assert d['html_duplicate_id_groups'] == 1, d
+          print('Synthetic fixture counts validated.')
+          PY
