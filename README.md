@@ -14,6 +14,9 @@ The feature presents editorial findings and their limits. The evidence lab offer
 
 ## Documentation ouverte / Public supporting material
 
+- [Contrôles réalisés et limites actuelles / Executed checks and current limits](evidence/STATUS-2026-10-21.md)
+- [Vérifier les prétendus messages inédits / Assess novelty and attribution](evidence/MESSAGE-NOVELTY.md)
+
 - [Matrice de couverture / Research coverage matrix](evidence/COVERAGE.md)
 - [État de l'audit documentaire / Reconciliation audit](evidence/AUDIT-2026-10-21.md)
 - [Messages bitcoin-list et correspondance au code / Source-to-code correspondence](evidence/BITCOIN-LIST.md)
@@ -41,3 +44,8 @@ Les illustrations du reportage sont des **reconstitutions éditoriales**, jamais
 The illustrations are **editorial reconstructions**, not authenticated 2009 screenshots. Identity/location speculation and unsupported IRC authorship attributions are not presented as facts.
 
 **Project status:** public research edition, historical findings audited for wording and completeness; independent end-to-end reproduction remains incomplete without the original source material.
+
+
+### Contrôles automatiques / Automated checks
+
+[GitHub Actions — documentaire et tests](https://github.com/cancrom/bitcoin-satoshi-archive/actions/workflows/evidence-check.yml) — scripts de vérification HTML et tests synthétiques, sans dépendance aux archives historiques manquantes. **La publication du workflow ne garantit pas encore la réussite d'une exécution.**
