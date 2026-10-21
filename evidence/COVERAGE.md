@@ -24,6 +24,7 @@ Updated **21 October 2026** against the 8 August 2026 final report, the 7 August
 | Network checksums r78 | `index.html#chronique-technique` | Source and Phase 6 report | Covered, reported |
 | IRC/HTTP/peer map/bootstrap | `index.html#chapter-10` | POC-06, E010/E013 | Covered; no IRC speaker attribution |
 | SVN copy ancestry 33/33 and 42 files | `index.html#chapter-11` | POC-07 | Covered; needs original SVN mirror |
+| Direct S1 P2P ZIP extraction | `proofs.html#s1-direct-extraction` | `reproduce/p2p_extract.py` + synthetic unit tests | Ready for original S1, historic counts not freshly reproduced |
 | P2P HTML/mbox numerical audit | `index.html#chapter-12` | POC-08 + duplicate-aware script | Covered with historic normalization gap |
 | Five P2P mail copies and metadata limitations | `index.html#archive-finds` | POC-09 | Covered without identity inference |
 | Linux port tree delta | `index.html#chronique-technique` | POC-14 | Covered, reported |
