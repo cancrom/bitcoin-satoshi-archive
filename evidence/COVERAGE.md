@@ -6,6 +6,7 @@ Updated **21 October 2026** against the 8 August 2026 final report, the 7 August
 
 | Topic | Reader-facing location | Evidence or method | Coverage |
 | --- | --- | --- | --- |
+| bitcoin-list correspondence and source-to-code comparison | `index.html#bitcoin-list` | `proofs.html#mail-code-crosscheck` and `evidence/BITCOIN-LIST.md` | Primary messages linked; code comparisons still historical |
 | History and scope | `index.html#top` | `proofs.html#approach` | Covered |
 | Pre-launch 2008 code / provenance limits | `index.html#avant-publication` | Original Bitcointalk source attribution | Covered with limitations |
 | Jan 2009 binary reconstruction by t4t5 | `index.html#avant-publication` | External build project and SHA-256 | Covered, third-party result |
@@ -46,3 +47,10 @@ Updated **21 October 2026** against the 8 August 2026 final report, the 7 August
 - **Visual fidelity:** six PNG reconstructions included in the article; additional review-control schematic is labeled as editorial, not as a period screenshot.
 
 A new corroborated result should update both `evidence/CLAIMS.csv` and this matrix, with its immutable source reference, negative controls and dated output.
+
+## October 21 follow-up
+
+- New first-party-source correspondence dossier: [BITCOIN-LIST.md](BITCOIN-LIST.md).
+- Publication and fixture check status: [STATUS-2026-10-21.md](STATUS-2026-10-21.md).
+- Novel-message attribution rules: [MESSAGE-NOVELTY.md](MESSAGE-NOVELTY.md).
+- GitHub Actions [documentary evidence checks](../.github/workflows/evidence-check.yml) were added; run success is not yet independently confirmed.
