@@ -8,9 +8,9 @@
 
 ### [Laboratoire de preuves / Evidence and reproducibility lab](https://cancrom.github.io/bitcoin-satoshi-archive/proofs.html)
 
-Le reportage rassemble les recherches éditoriales et leurs limites. Le laboratoire propose **16 protocoles de vérification**, un registre des archives historiques et un comparateur de Message-ID capable de conserver les doublons.
+Le reportage rassemble les recherches éditoriales et leurs limites. Le laboratoire propose **17 protocoles de vérification**, un registre des archives historiques et un comparateur de Message-ID capable de conserver les doublons.
 
-The feature presents editorial findings and their limits. The evidence lab offers **16 verification procedures**, an archive ledger and a duplicate-aware Message-ID index comparator.
+The feature presents editorial findings and their limits. The evidence lab offers **17 verification procedures**, an archive ledger and a duplicate-aware Message-ID index comparator.
 
 ## Documentation ouverte / Public supporting material
 
@@ -31,6 +31,7 @@ The feature presents editorial findings and their limits. The evidence lab offer
 - [Empreintes DLL rapportées / Documented DLL fingerprints](evidence/BINARIES.md)
 - [Provenance des sources IRC / IRC provenance and limits](evidence/IRC-SOURCES.md)
 - [Guide de reproduction / Reproduction guide](reproduce/README.md)
+- [Extracteur direct de S1 / Raw S1 P2P ZIP extractor](reproduce/p2p_extract.py)
 - [Comparateur P2P / P2P Message-ID comparator](reproduce/p2p_ids.py)
 - [Tests méthodologiques / Comparator tests](reproduce/test_p2p_ids.py)
 
