@@ -1,19 +1,15 @@
-# Bitcoin avant la légende
+# Bitcoin avant la légende / Bitcoin Before the Legend
 
-### Bitcoin Before the Legend
+**Publication historique bilingue illustrée sur le premier logiciel Bitcoin, ses fonctionnalités expérimentales et les évolutions de 2008 à 2010.**
 
-**Le Bitcoin oublié : une enquête historique illustrée sur les premières versions du logiciel de Satoshi Nakamoto.**
+**An illustrated bilingual editorial history of early Bitcoin, its experimental features and changes between 2008 and 2010.**
 
-*The forgotten Bitcoin: an illustrated historical feature on Satoshi Nakamoto's earliest software.*
+### [Lire la publication / Read the article](https://cancrom.github.io/bitcoin-satoshi-archive/)
 
-### [→ Lire le reportage / Read the story](https://cancrom.github.io/bitcoin-satoshi-archive/)
+12 chapitres · Dossiers historiques · Chronologie · Atlas de six reconstructions · Sources documentaires · Français / English
 
-**Français / English · 12 chapitres · 6 illustrations · Lecture sur ordinateur et mobile**
+Ce dépôt contient uniquement la publication publique ; les illustrations sont des **reconstructions**, et non des captures d'écran authentifiées de 2009. Aucun document de travail privé n'est inclus.
 
-Notre publication explore le premier portefeuille Bitcoin, les paiements par adresse IP, le prototype de marketplace et les fonctionnalités qui ont évolué ou disparu au cours des premières versions.
+This repository contains only the public feature. Its illustrations are **reconstructions**, not authenticated 2009 screenshots. No private research working files are included.
 
-*This publication explores the first Bitcoin wallet, direct IP payments, the experimental marketplace and features that evolved or disappeared in early releases.*
-
-[Consulter le fichier HTML directement / Open the HTML source](index.html)
-
-> Le lien du site sera actif après activation de GitHub Pages dans **Settings → Pages → Deploy from a branch → main / (root)**. / The site URL will become live once GitHub Pages is enabled.
+[Ouvrir le fichier HTML / Open the HTML file](index.html)
