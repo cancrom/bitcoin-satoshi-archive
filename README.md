@@ -8,11 +8,15 @@
 
 ### [Laboratoire de preuves / Evidence and reproducibility lab](https://cancrom.github.io/bitcoin-satoshi-archive/proofs.html)
 
-Le reportage rassemble les recherches éditoriales et leurs limites. Le laboratoire propose **17 protocoles de vérification**, un registre des archives historiques et un comparateur de Message-ID capable de conserver les doublons.
+Le reportage rassemble les recherches éditoriales et leurs limites. Le laboratoire propose **19 protocoles de vérification**, un registre des archives historiques et un comparateur de Message-ID capable de conserver les doublons.
 
-The feature presents editorial findings and their limits. The evidence lab offers **17 verification procedures**, an archive ledger and a duplicate-aware Message-ID index comparator.
+The feature presents editorial findings and their limits. The evidence lab offers **19 verification procedures**, an archive ledger and a duplicate-aware Message-ID index comparator.
 
 ## Documentation ouverte / Public supporting material
+
+- [Notre audit du binaire Bitcoin 0.1.0 / Original 0.1.0 forensic investigation](evidence/BITCOIN-010-ORIGINAL-AUDIT.md)
+- [Inspecteur PE hors ligne / Offline PE header inspector](reproduce/inspect_pe.py)
+- [Comparateur RAR et TGZ / RAR and TGZ parity checker](reproduce/compare_archive_manifests.py)
 
 - [Manifeste des archives S1–S9 / Historic archive SHA-256 manifest](evidence/ARCHIVE-MANIFEST.csv)
 - [Vérificateur SHA-256 / Safe archive integrity checker](reproduce/verify_archives.py)
