@@ -63,8 +63,16 @@ def check_page(path: Path) -> list[str]:
             errors.append(f"relative link outside repository: {href}")
         elif parts.path and not target_path.is_file():
             errors.append(f"missing local file: {href}")
-        elif parts.fragment and target_path == path and unquote(parts.fragment) not in ids:
-            errors.append(f"missing local anchor: {href}")
+        elif parts.fragment and target_path.is_file() and target_path.suffix.lower() in (".html", ".htm"):
+            if target_path == path:
+                target_ids = ids
+            else:
+                other = AuditHTML()
+                other.feed(target_path.read_text(encoding="utf-8"))
+                other.close()
+                target_ids = set(other.ids)
+            if unquote(parts.fragment) not in target_ids:
+                errors.append(f"missing local or cross-page anchor: {href}")
     if "C:\\Users\\" in raw or "E:\\Selma\\" in raw:
         errors.append("local machine path leaked")
     if re.search(r"sk-proj-[A-Za-z0-9_-]{15,}|-----BEGIN (?:RSA |EC )?PRIVATE KEY-----", raw):
