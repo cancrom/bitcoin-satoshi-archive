@@ -1,20 +1,41 @@
 # Bitcoin avant la légende / Bitcoin Before the Legend
 
-**Publication historique bilingue illustrée sur le premier logiciel Bitcoin, ses fonctionnalités expérimentales et les évolutions de 2008 à 2010.**
+**Enquête historique bilingue et illustrée sur Bitcoin (2008–2011).**
 
-**An illustrated bilingual editorial history of early Bitcoin, its experimental features and changes between 2008 and 2010.**
+*Bilingual illustrated historical study of Bitcoin's early software, conversations and forgotten mechanisms.*
 
-### [Lire la publication / Read the article](https://cancrom.github.io/bitcoin-satoshi-archive/)
+### [Lire le reportage / Read the historical feature](https://cancrom.github.io/bitcoin-satoshi-archive/)
 
-12 chapitres · Dossiers historiques · Chronologie · Atlas de six reconstructions · Sources documentaires · Français / English
+### [Laboratoire de preuves / Evidence and reproducibility lab](https://cancrom.github.io/bitcoin-satoshi-archive/proofs.html)
 
-Ce dépôt contient uniquement la publication publique ; les illustrations sont des **reconstructions**, et non des captures d'écran authentifiées de 2009. Aucun document de travail privé n'est inclus.
+Le reportage rassemble les recherches éditoriales et leurs limites. Le laboratoire propose **14 protocoles de vérification**, un registre des archives historiques et un comparateur de Message-ID capable de conserver les doublons.
 
-This repository contains only the public feature. Its illustrations are **reconstructions**, not authenticated 2009 screenshots. No private research working files are included.
+The feature presents editorial findings and their limits. The evidence lab offers **14 verification procedures**, an archive ledger and a duplicate-aware Message-ID index comparator.
 
-[Ouvrir le fichier HTML / Open the HTML file](index.html)
+## Documentation ouverte / Public supporting material
 
+- [État de l'audit documentaire / Reconciliation audit](evidence/AUDIT-2026-10-21.md)
+- [Registre des affirmations / Claims ledger](evidence/CLAIMS.csv)
+- [Références des commentaires et commits / Commit anchors](evidence/COMMIT-ANCHORS.md)
+- [Empreintes DLL rapportées / Documented DLL fingerprints](evidence/BINARIES.md)
+- [Provenance des sources IRC / IRC provenance and limits](evidence/IRC-SOURCES.md)
+- [Guide de reproduction / Reproduction guide](reproduce/README.md)
+- [Comparateur P2P / P2P Message-ID comparator](reproduce/p2p_ids.py)
+- [Tests méthodologiques / Comparator tests](reproduce/test_p2p_ids.py)
 
-### [→ Laboratoire de preuves / Evidence & reproducibility lab](proofs.html)
+## La différence entre documentation et reproduction
 
-Dix protocoles de reproduction, références publiques, empreintes documentaires et limites. / Ten reproducibility protocols, public references, documentary hashes and limitations.
+Les résultats de l'enquête d'août 2026 ont été confrontés aux versions finales et aux audits contradictoires. **Cela ne signifie pas que les conteneurs S1–S9 sont hébergés ou revérifiés dans ce dépôt.**
+
+The August 2026 findings have been reconciled against the final publications and adversarial audit reports. **This does not mean the original S1–S9 containers are hosted or newly reverified in this repository.**
+
+- **8/9** : empreintes concordantes *rapportées dans le contrôle historique final*.
+- **0/9** : pièces présentes dans le répertoire **distinct** utilisé lors de l'audit Phase 7 ; aucune empreinte vérifiable dans cette exécution.
+- **7/10** : métriques historiques d'archives P2P reproduites avec les conventions explicites alors utilisées.
+- **S2** : conteneur ZIP d'origine toujours signalé comme manquant.
+
+Les illustrations du reportage sont des **reconstitutions éditoriales**, jamais des captures authentifiées de 2009. Les affirmations concernant l'identité, la localisation ou des échanges IRC attribués à Satoshi sont volontairement limitées aux preuves disponibles.
+
+The illustrations are **editorial reconstructions**, not authenticated 2009 screenshots. Identity/location speculation and unsupported IRC authorship attributions are not presented as facts.
+
+**Project status:** public research edition, historical findings audited for wording and completeness; independent end-to-end reproduction remains incomplete without the original source material.
