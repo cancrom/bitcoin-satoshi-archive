@@ -14,6 +14,7 @@ The feature presents editorial findings and their limits. The evidence lab offer
 
 ## Documentation ouverte / Public supporting material
 
+- [Matrice de couverture / Research coverage matrix](evidence/COVERAGE.md)
 - [État de l'audit documentaire / Reconciliation audit](evidence/AUDIT-2026-10-21.md)
 - [Registre des affirmations / Claims ledger](evidence/CLAIMS.csv)
 - [Références des commentaires et commits / Commit anchors](evidence/COMMIT-ANCHORS.md)
