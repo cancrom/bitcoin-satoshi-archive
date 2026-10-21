@@ -13,3 +13,8 @@ Ce dépôt contient uniquement la publication publique ; les illustrations sont 
 This repository contains only the public feature. Its illustrations are **reconstructions**, not authenticated 2009 screenshots. No private research working files are included.
 
 [Ouvrir le fichier HTML / Open the HTML file](index.html)
+
+
+### [→ Laboratoire de preuves / Evidence & reproducibility lab](proofs.html)
+
+Dix protocoles de reproduction, références publiques, empreintes documentaires et limites. / Ten reproducibility protocols, public references, documentary hashes and limitations.
