@@ -14,6 +14,10 @@ The feature presents editorial findings and their limits. The evidence lab offer
 
 ## Documentation ouverte / Public supporting material
 
+- [Manifeste des archives S1–S9 / Historic archive SHA-256 manifest](evidence/ARCHIVE-MANIFEST.csv)
+- [Vérificateur SHA-256 / Safe archive integrity checker](reproduce/verify_archives.py)
+- [Comparaison des reconstructions externes / Independent rebuild comparisons](evidence/EXTERNAL-REBUILDS.md)
+
 - [Contrôles réalisés et limites actuelles / Executed checks and current limits](evidence/STATUS-2026-10-21.md)
 - [Vérifier les prétendus messages inédits / Assess novelty and attribution](evidence/MESSAGE-NOVELTY.md)
 
