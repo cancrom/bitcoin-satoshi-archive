@@ -1,0 +1,17 @@
+id,topic,publication_status,original_evidence,scope_or_limitation,next_check
+H01,Multi-processor mining and change privacy,REPORTED_PHASE6,SVN r15 dated 2009-10-21,Not freshly rerun,Diff r15 versus prior revision
+H02,Market UI removal and surviving order primitives,REPORTED_PHASE6,SVN r64 and snapshot r180,UI removal is not total protocol removal,Trace handlers through r180
+H03,Market incomplete order receiving/review relay,REPORTED_PHASE6,Market source and network flow,No full historical runtime deployment proven,Check both sides of message dispatch
+H04,Network message checksum,REPORTED_PHASE6,SVN r78 dated 2010-05-26,Peer compatibility nuances,Diff peer serializer/parser
+H05,Specific 1 MB block cap,REPORTED_PHASE6,SVN r103 dated 2010-07-15,General MAX_SIZE differs from MAX_BLOCK_SIZE,Diff main.h and CheckBlock
+H06,70 minute clock bound and warning,REPORTED_PHASE6,SVN r109 and r141,70 minute bound present no later than r109,Review time-adjustment code
+H07,Script versus overflow revision separation,REPORTED_PHASE6,SVN r131 and r132 on 2010-08-15,Two different changes 30 minutes apart,Compare exact file diffs
+H08,Linux multiplatform branch delta,REPORTED_PHASE9,trunk@22 multiplatform@31,47 base vs 59 target not a full authorship proof,Recreate tree diff
+H09,Windows dependency DLL fingerprints,REPORTED_PHASE9,PE SHA256 timestamp and DLL strings,Packaging not authorship,Hash and inspect exact binaries
+H10,P2P HTML mbox Message-ID comparison,PARTIAL_REPRODUCTION,Historic S1 and S2 analysis,Seven of ten metrics reproduced,Compare normalized extracted ID CSV files
+H11,SourceForge ancestry,REPORTED_PHASE9,33 copy events affecting 42 files,Depends on SVN copy metadata,Fetch exact SVN revision history
+H12,IRC source archive coverage,UNVERIFIED_MESSAGES,S9 tarball and IRC recovery utility,No Satoshi-specific transcript authenticated,Produce source-stamped log index
+H13,Public client graphics,RECONSTRUCTION,wxWidgets UI files,Not period screenshots,Compare control structure to sources
+H14,Early email user agents,REPORTED_ARCHIVED_COPY,Five February 2009 P2P copies,Does not identify computer or person,Inspect original header bytes
+H15,CAlert centralization,REPORTED_PHASE9,SVN r142 and CAlert functions,Not arbitrary code execution,Inspect signature and control flow
+H16,Satoshi departure cause,UNPROVEN,Public Dec 2010 and Apr 2011 correspondence,No demonstrated causal link to overflow incident,Avoid causal claims
