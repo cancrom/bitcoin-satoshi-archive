@@ -1,33 +1,19 @@
-# Bitcoin avant la légende / Bitcoin Before the Legend
+# Bitcoin avant la légende
 
-**Une histoire illustrée du premier Bitcoin. / An illustrated history of early Bitcoin.**
+### Bitcoin Before the Legend
 
-[**Lire le reportage bilingue / Read the bilingual feature**](index.html)
+**Le Bitcoin oublié : une enquête historique illustrée sur les premières versions du logiciel de Satoshi Nakamoto.**
 
-Ce dépôt public héberge une **publication éditoriale autonome** sur les premières interfaces Bitcoin et les fonctions expérimentales que le logiciel a ensuite abandonnées ou modifiées.
+*The forgotten Bitcoin: an illustrated historical feature on Satoshi Nakamoto's earliest software.*
 
-This public repository hosts a **self-contained editorial feature** about Bitcoin's early interfaces and experimental functions that were later removed or changed.
+### [→ Lire le reportage / Read the story](https://cancrom.github.io/bitcoin-satoshi-archive/)
 
-## Le récit / The story
+**Français / English · 12 chapitres · 6 illustrations · Lecture sur ordinateur et mobile**
 
-Le reportage décrit le premier portefeuille graphique, l'envoi par adresse IP, un prototype de marketplace avec produits, commandes et avis, les premières méthodes de découverte des pairs, les évolutions de Script et des contrôles de sécurité, ainsi que les limites de la documentation historique.
+Notre publication explore le premier portefeuille Bitcoin, les paiements par adresse IP, le prototype de marketplace et les fonctionnalités qui ont évolué ou disparu au cours des premières versions.
 
-The feature covers the early graphical wallet, IP-based sending, a prototype marketplace with products, orders and reviews, early peer discovery, changes to Script and safeguards, and the limits of the surviving historical record.
+*This publication explores the first Bitcoin wallet, direct IP payments, the experimental marketplace and features that evolved or disappeared in early releases.*
 
-## Images
+[Consulter le fichier HTML directement / Open the HTML source](index.html)
 
-Les **six illustrations** sont intégrées directement dans `index.html`. Elles proviennent des reconstructions de notre publication finale d'août 2026. **Ce ne sont pas des captures contemporaines authentifiées de 2009**.
-
-All six illustrations are embedded in `index.html`. They originate in reconstructions made for our final August 2026 publication. **They are not authenticated contemporary screenshots from 2009.**
-
-## Consulter la page / View the page
-
-Téléchargez `index.html` et ouvrez-le dans un navigateur. La page fonctionne hors connexion et propose un bouton FR / EN.
-
-Download `index.html` and open it in a browser. It works offline and provides a FR / EN language toggle.
-
-> Cette publication ne prétend pas identifier Satoshi Nakamoto. Le code conservé ne prouve pas à lui seul qu'une fonctionnalité expérimentale a été distribuée au public.
->
-> This publication does not seek to identify Satoshi Nakamoto. The survival of code alone does not establish that an experimental feature was shipped to the public.
-
-**Research archive:** [Dépôt de recherche privé / private research repository](https://github.com/cancrom/bitcoin-satoshi-archives) — accès réservé aux collaborateurs autorisés / access limited to authorized collaborators.
+> Le lien du site sera actif après activation de GitHub Pages dans **Settings → Pages → Deploy from a branch → main / (root)**. / The site URL will become live once GitHub Pages is enabled.
