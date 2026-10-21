@@ -1,0 +1,3 @@
+id,url,expected_bytes,source_kind
+S1,https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again.zip,63264212,public_archive
+S9,https://diyhpl.us/~bryan/irc/bitcoin/bitcoin-logs.2010-2018.tar.bz2,44459803,public_archive
