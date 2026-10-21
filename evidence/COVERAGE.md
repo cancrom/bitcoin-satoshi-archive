@@ -39,6 +39,8 @@ Updated **21 October 2026** against the 8 August 2026 final report, the 7 August
 | S2 original ZIP and exact original body/thread normalization | `proofs.html#ledger` | `evidence/AUDIT-2026-10-21.md` | Blocked by missing original |
 | Seven reconstructed UI images incl. review editor | `index.html#comparaisons-visuelles`, `#chronique-technique` | Six embedded PNGs + one HTML explanatory layout | Partial: exact seventh source PNG not uploaded |
 | S1–S9 archive integrity validator | `proofs.html#verifier-archives` | `reproduce/verify_archives.py` + `evidence/ARCHIVE-MANIFEST.csv` | Script tested with synthetic files; historic originals missing in this execution |
+| Independent historic Phase 3/4 PE binary audit | `index.html#audit-binaire-010` | `proofs.html#audit-pe-original`, `evidence/BITCOIN-010-ORIGINAL-AUDIT.md` | Historical hash and header results reported; original exe not present |
+| RAR/TGZ 48/48 member parity and timestamp conversion | `index.html#audit-binaire-010` | `proofs.html#rar-tgz-concordance`, synthetic manifest checker | Historic 48/48 and eight-hour offset reported; original member manifests absent |
 | Independent external 2009 rebuilds | `index.html#reconstructions-tierces` | `evidence/EXTERNAL-REBUILDS.md` | External projects credited; no new binary build conducted |
 | Nine original archive containers | `proofs.html#ledger` | historical digests, Phase 7 audit distinction | Partial: referenced not distributed |
 
