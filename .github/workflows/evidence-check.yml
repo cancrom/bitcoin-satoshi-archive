@@ -23,6 +23,17 @@ jobs:
         run: python -m unittest discover -s reproduce -p 'test_*.py' -v
       - name: Validate bilingual pages and local references
         run: python reproduce/verify_publication.py
+      - name: Validate historic archive manifest syntax (no archives downloaded)
+        run: |
+          python - <<'PY'
+          import sys
+          from pathlib import Path
+          sys.path.insert(0, 'reproduce')
+          from verify_archives import load_manifest
+          rows = load_manifest(Path('evidence/ARCHIVE-MANIFEST.csv'))
+          assert [r['id'] for r in rows] == [f'S{i}' for i in range(1, 10)]
+          print('Nine reference hashes have valid syntax. Historical files are NOT claimed to be present.')
+          PY
       - name: Execute synthetic comparator fixtures
         run: |
           python reproduce/p2p_ids.py \
